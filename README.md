@@ -16,6 +16,46 @@ The dataset for this project contains the information about US Medical prescribe
   - `Apache Airflow`: Orchestration tool and for running Cron jobs
   - `Apache Superset`: BI dashboard
 
+### Project structure
+        
+        ├── airflow_data
+        │   └── airflow.cfg
+        ├── dags
+        │   ├── credentials
+        │   │   └── variables.json
+        │   ├── presc_pipeline.py
+        │   └── __pycache__
+        │       └── presc_pipeline.cpython-37.pyc
+        ├── data
+        │   ├── USA_Presc_Medicare_Data_2021.csv
+        │   └── us_cities_dimension.parquet
+        ├── docker-compose.yaml
+        ├── Dockerfile
+        ├── images
+        │   ├── city-report-dashboard-2022-12-05T04-26-37.676Z.jpg
+        │   ├── db1.png
+        │   ├── db2.png
+        │   ├── db3.png
+        │   ├── pipeline_status.png
+        │   ├── prescriber-dashboard-2022-12-04T21-49-29.517Z.jpg
+        │   └── spark-architecture.jpeg
+        ├── logs
+        │   └── dag_processor_manager
+        │       └── dag_processor_manager.log
+        ├── plugins
+        ├── requirements.txt
+        ├── scripts
+        │   ├── __init__.py
+        │   ├── __pycache__
+        │   │   └── validate.cpython-37.pyc
+        │   ├── spark_etl.py
+        │   └── validate.py
+        ├── staging
+        └── superset
+            ├── city_report_dashboard.gif
+            └── prescriber_report_dashboard.gif
+
+
 ### Spark ETL components/job
   - `City transformation / report`: 
           
