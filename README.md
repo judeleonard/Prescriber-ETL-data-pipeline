@@ -29,6 +29,10 @@ The dataset for this project contains the information about US Medical prescribe
       -   apply filter to consider prescribers only from 20 - 50 years of experience
       -   rank the prescribers based on their transaction count for each state
       -   Select top 5 prescribers from each state
+      
+### Pipeline runtime status
+*pipeline is scheduled to run on weekly basis*
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/pipeline_status.png)
 
   
 ### Tables in postgres
