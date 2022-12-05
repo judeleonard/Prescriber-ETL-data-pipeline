@@ -9,5 +9,7 @@ baseurl: 'Prescriber-ETL-data-pipeline/'
 <img src="{{ "images/db1.png" | prepend: site.baseurl | prepend: site.url}}" alt="db1" />
 <img src="{{ "images/db2.png" | prepend: site.baseurl | prepend: site.url}}" alt="db2" />
 <img src="{{ "images/db3.png" | prepend: site.baseurl | prepend: site.url}}" alt="db3" />
+<img src="{{ "images/spark-architecture.jpeg" | prepend: site.baseurl | prepend: site.url}}" alt="spark-architecture" />
+<img src="{{ "images/pipeline_status.png" | prepend: site.baseurl | prepend: site.url}}" alt="pipeline_status" />
 <img src="{{ "superset/city_report_dashboard.gif" | prepend: site.baseurl | prepend: site.url}}" alt="city_report_dashboard" />
 <img src="{{ "superset/prescriber_report_dashboard.gif" | prepend: site.baseurl | prepend: site.url}}" alt="prescriber_report_dashboard" />
