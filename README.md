@@ -46,5 +46,12 @@ The dataset for this project contains the information about US Medical prescribe
 **prescriber_report**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db3.png)
 
-### Visualizing City report dashboard in Apache superset
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/city_report_dashboard.gif)
+### Visualizing city report dashboard in Apache superset
+
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/city_report_dashboard.gif) 
+
+### Visualizing prescribers report in Apache superset
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/prescriber_report_dashboard.gif)
+
+
+
