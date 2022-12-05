@@ -83,7 +83,7 @@ def load_files_to_DB(file_name, data_path):
         df.head(0).to_sql('city_report', engine, if_exists='replace',index=False) 
         conn = engine.raw_connection()
         cur = conn.cursor()
-        output = io.StringIO()/home/dell/Documents/presc_pipeline/staging/top5_prescribers.csv
+        output = io.StringIO()
         df.to_csv(output, sep='\t', header=False, index=False)
         output.seek(0)
         contents = output.getvalue()
