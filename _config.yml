@@ -2,3 +2,12 @@ theme: jekyll-theme-cayman
 title: "An ETL data pipeline with Pyspark, Apache Airflow and BI dashboard using Apache Superset"
 description: "This project demostrated an end to end pipeline by applying spark parallel processing to process large dataset coming in different format and integrating with different datawarehouse technologies and visualizing data using Superset"
 author: "Jude Leonard"
+
+url: 'https://judeleonard.github.io/'
+baseurl: 'Prescriber-ETL-data-pipeline/'
+
+<img src="{{ "images/db1.png" | prepend: site.baseurl | prepend: site.url}}" alt="db1" />
+<img src="{{ "images/db2.png" | prepend: site.baseurl | prepend: site.url}}" alt="db2" />
+<img src="{{ "images/db3.png" | prepend: site.baseurl | prepend: site.url}}" alt="db3" />
+<img src="{{ "superset/city_report_dashboard.gif" | prepend: site.baseurl | prepend: site.url}}" alt="city_report_dashboard" />
+<img src="{{ "superset/prescriber_report_dashboard.gif" | prepend: site.baseurl | prepend: site.url}}" alt="prescriber_report_dashboard" />
