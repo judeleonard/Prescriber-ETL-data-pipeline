@@ -33,3 +33,12 @@ The dataset for this project contains the information about US Medical prescribe
   
 ### Tables in postgres
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db1.png)
+
+### Querying report tables
+
+**city_report**
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db2.png)
+
+**prescriber_report**
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db3.png)
+
