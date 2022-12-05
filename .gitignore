@@ -1,0 +1,8 @@
+.env
+scripts/__pycache__
+dags/__pycache__
+airflow_data
+data/us_cities_dimension.parquet
+data/USA_Presc_Medicare_Data_2021.csv
+logs
+plugins

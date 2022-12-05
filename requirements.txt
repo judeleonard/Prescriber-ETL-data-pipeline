@@ -1,0 +1,5 @@
+boto3
+pyspark
+botocore
+pandas
+azure-storage-blob
