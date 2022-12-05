@@ -31,7 +31,7 @@ The dataset for this project contains the information about US Medical prescribe
       -   Select top 5 prescribers from each state
       
 ### Pipeline runtime status
-*pipeline is scheduled to run on weekly basis*
+**pipeline is scheduled to run on weekly basis**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/pipeline_status.png)
 
   
@@ -46,3 +46,5 @@ The dataset for this project contains the information about US Medical prescribe
 **prescriber_report**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db3.png)
 
+### Visualizing City report dashboard in Apache superset
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/city_report_dashboard.gif)
