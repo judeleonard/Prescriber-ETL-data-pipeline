@@ -31,3 +31,5 @@ The dataset for this project contains the information about US Medical prescribe
       -   Select top 5 prescribers from each state
 
   
+### Tables in postgres
+![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db1.png)
