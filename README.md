@@ -5,6 +5,7 @@ The dataset for this project contains the information about US Medical prescribe
 
 ### Architecture - Prescriber pipeline
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/spark-architecture.jpeg)
+![](<img src="{{site.baseurl | prepend: site.url}}images/spark-architecture.jpeg" alt="spark-architecture" />)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
@@ -70,28 +71,39 @@ The dataset for this project contains the information about US Medical prescribe
       -   rank the prescribers based on their transaction count for each state
       -   Select top 5 prescribers from each state
       
-### Pipeline runtime status
+### Pipeline runtime status -> executed successfully
 **pipeline is scheduled to run on weekly basis**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/pipeline_status.png)
+![](<img src="{{site.baseurl | prepend: site.url}}images/pipeline_status.png" alt="pipeline_status" />)
 
   
 ### Tables in postgres
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db1.png)
+![](<img src="{{site.baseurl | prepend: site.url}}images/db1.png" alt="db1" />)
 
 ### Querying report tables
 
 **city_report**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db2.png)
+![](<img src="{{site.baseurl | prepend: site.url}}images/db2.png" alt="db2" />)
 
 **prescriber_report**
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db3.png)
+![](<img src="{{site.baseurl | prepend: site.url}}images/db3.png" alt="db3" />)
 
 ### Visualizing city report dashboard in Apache superset
 
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/city_report_dashboard.gif) 
+![](<img src="{{site.baseurl | prepend: site.url}}superset/city_report_dashboard.gif" alt="city_report_dashboard" />)
 
 ### Visualizing prescribers report in Apache superset
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/prescriber_report_dashboard.gif)
+![](<img src="{{site.baseurl | prepend: site.url}}images/prescriber_report_dashboard.gif" alt="prescriber_report_dashboard" />)
+
+
+
+
+
 
 
 
