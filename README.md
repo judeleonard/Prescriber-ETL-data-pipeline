@@ -4,8 +4,7 @@
 The dataset for this project contains the information about US Medical prescribers, their cities, years of experience, the cost for each prescribed medicine etc. The data that houses these information came in two format having a relation.The `city dimensions` table in parquet format and the `fact` table that comes in csv format containing the prescribers' information. The goal is to load these data using the spec format into spark and utilizing spark rdd to process and transform by extracting insight off this large dataset about 4GB in size.
 
 ### Architecture - Prescriber pipeline
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/spark-architecture.jpeg)
-![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/blob/main/images/spark-architecture.jpeg)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/spark-architecture.jpeg)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
@@ -73,37 +72,25 @@ The dataset for this project contains the information about US Medical prescribe
       
 ### Pipeline runtime status -> executed successfully
 **pipeline is scheduled to run on weekly basis**
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/pipeline_status.png)
-![](<img src="{{site.baseurl | prepend: site.url}}images/pipeline_status.png" alt="pipeline_status" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/pipeline_status.png)
 
   
 ### Tables in postgres
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db1.png)
-![](<img src="{{site.baseurl | prepend: site.url}}images/db1.png" alt="db1" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db1.png)
 
 ### Querying report tables
 
 **city_report**
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db2.png)
-![](<img src="{{site.baseurl | prepend: site.url}}images/db2.png" alt="db2" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db2.png)
 
 **prescriber_report**
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/db3.png)
-![](<img src="{{site.baseurl | prepend: site.url}}images/db3.png" alt="db3" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/images/db3.png)
 
 ### Visualizing city report dashboard in Apache superset
-
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/city_report_dashboard.gif) 
-![](<img src="{{site.baseurl | prepend: site.url}}superset/city_report_dashboard.gif" alt="city_report_dashboard" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/superset/city_report_dashboard.gif)
 
 ### Visualizing prescribers report in Apache superset
-![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/superset/prescriber_report_dashboard.gif)
-![](<img src="{{site.baseurl | prepend: site.url}}images/prescriber_report_dashboard.gif" alt="prescriber_report_dashboard" />)
-
-
-
-
-
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/superset/prescriber_report_dashboard.gif)
 
 
 
