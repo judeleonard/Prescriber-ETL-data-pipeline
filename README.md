@@ -5,7 +5,7 @@ The dataset for this project contains the information about US Medical prescribe
 
 ### Architecture - Prescriber pipeline
 ![](https://github.com/judeleonard/Prescriber-ETL-data-pipeline/blob/main/images/spark-architecture.jpeg)
-![](<img src="{{site.baseurl | prepend: site.url}}images/spark-architecture.jpeg" alt="spark-architecture" />)
+![](https://judeleonard.github.io/Prescriber-ETL-data-pipeline/blob/main/images/spark-architecture.jpeg)
 
 ### Technologies and Functions
   - `Pyspark`: Data preprocessing, cleaning & transformation
