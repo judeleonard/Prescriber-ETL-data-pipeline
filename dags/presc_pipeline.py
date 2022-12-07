@@ -64,9 +64,9 @@ def load_files_to_DB(file_name, data_path):
     for f in glob.glob(data_path):
        filename = f.rsplit('/')[-1]
     if filename == file_name:
-        df1 = pd.read_csv(data_path)
+        df = pd.read_csv(data_path)
         #drops old table and creates new empty table using dataframe schema
-        df1.head(0).to_sql('prescriber_report', engine, if_exists='replace',index=False) 
+        df.head(0).to_sql('prescriber_report', engine, if_exists='replace',index=False) 
         conn = engine.raw_connection()
         cur = conn.cursor()
         output = io.StringIO()
@@ -79,7 +79,7 @@ def load_files_to_DB(file_name, data_path):
         except:
             pass
     else:
-        df2 = pd.read_csv(data_path)
+        df = pd.read_csv(data_path)
         df.head(0).to_sql('city_report', engine, if_exists='replace',index=False) 
         conn = engine.raw_connection()
         cur = conn.cursor()
